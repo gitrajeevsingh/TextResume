@@ -433,7 +433,7 @@
         /* ---------- CERTIFICATIONS ---------- */
         .certification-list {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 24px;
         }
 
@@ -975,9 +975,14 @@
                 <h2 class="section-title"><i class="fas fa-certificate"></i>Certifications</h2>
                 <div class="certification-list">
                     <div class="certification-group">
-                        <h3>Microsoft Certifications</h3>
+                        <h3>AWS Certifications</h3>
                         <ul>
                             <li>AWS Certified: AI Practitioner (AIF-C01)</li>
+                        </ul>
+                    </div>
+                    <div class="certification-group">
+                        <h3>Microsoft Certifications</h3>
+                        <ul>
                             <li>GH-300: Microsoft Certified GitHub Copilot</li>
                             <li>AZ-900: Microsoft Azure Fundamentals</li>
                             <li>Microsoft Certified: Professional</li>
